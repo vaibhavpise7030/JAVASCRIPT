@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<h2>Check Number is 10 digit or not </h2>
+<body>
+<input type="button" value="CHeck" onclick="mobile()">
+<p id="Demo"></p>
+<script type="text/javascript">
+	var number="7030888685";
+	var len=number.length ;
+	doucument.getElementById("Demo").innerHTML=number;
+	function mobile()
+	{
+		if(len==10)
+		{
+			document.getElementById("Demo").innerHTML="Number is 10 Digit";
+		}
+		else
+		{
+	 	  document.getElementById("Demo").innerHTML="Number is Not 10 Digit";
+		}
+	}
+	
+</script>
+
+</body> 
+</html>
+
