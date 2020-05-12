@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+
+<input type="button" value="Descending Order" onclick="DescString()">
+
+<h1 id="Demo"></h1>
+
+<script type="text/javascript">
+
+		var str= ["Vaibhav","Raj","Ganesh","Suraj","Shubham"];
+		document.getElementById("Demo").innerHTML = str;
+
+		function DescString() 
+		{
+			str.sort();
+			str.reverse();
+            document.getElementById("Demo").innerHTML= str;
+        }
+
+</script>
+</body>
+</html>
