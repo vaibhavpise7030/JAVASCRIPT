@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Vaibhav</title>
+	
+</head>
+<body>
+
+<input type="button" value="Ascending Order" onclick="Asc()">
+
+<p id="Demo"></p>
+
+<script type="text/javascript">
+
+		var arr= [10,20,5,60,50,90,25,15,35,55];
+		document.getElementById("Demo").innerHTML = arr;
+
+		function Asc() 
+		{
+            arr.sort(function(a, b){return a- b});
+            document.getElementById("Demo").innerHTML = arr;
+        }
+
+</script>
+</body>
+</html>
