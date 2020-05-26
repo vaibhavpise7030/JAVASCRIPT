@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Self_invoke</title>
+</head>
+<body>
+<p id="Demo"></p>
+<script type="text/javascript">
+
+(function()
+  {
+   var name="VAIBHAV";
+   document.getElementById("Demo").innerHTML=name;	
+  })();	
+
+</script>
+</body>
+</html>
