@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Change_Color</title>
+</head>
+<body>
+ENTER NAME: <input type="text" id="name"> <br> <br>
+
+<input type="radio" name="vp" id="red">Red</input> 
+<input type="radio" name="vp" id="blue">Blue </input> 
+<input type="radio" name="vp" id="yellow">Yellow </input> <br><br>
+
+<input type="button" value="Click!" onclick="fun()">
+
+<p id="demo"></p>
+
+<script type="text/javascript">
+
+	function fun()
+	{
+		var name = document.getElementById("name").value;
+		document.getElementById("demo").innerHTML = name;
+
+	  var red = document.getElementById('red');
+	  var blue = document.getElementById('blue');
+	  var yellow = document.getElementById('yellow');
+
+	  if(red.checked == true)
+	  {
+	  	document.getElementById("demo").style.color = "red";
+	  }
+	  else if(blue.checked == true)
+	  {
+	  	document.getElementById("demo").style.color = "blue";
+	  }
+	  else if (yellow.checked == true)
+	  {
+	  	document.getElementById("demo").style.color = "yellow";
+	  } 
+	}
+
+</script>
+</body>
+</html>
+
