@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Align</title>
+</head>
+<body>
+<h1 id="demo" align="left">VAIBHAV PISE</h1>
+
+<input type="button" value="Click!" onclick="Chnage_Align()">
+
+<script type="text/javascript">
+
+	function Chnage_Align()
+	{
+	  document.getElementById('demo').align="right";
+	}
+
+</script>
+</body>
+</html>
+
