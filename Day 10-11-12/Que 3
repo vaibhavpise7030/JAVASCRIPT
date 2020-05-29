@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Chnage_Color</title>
+</head>
+<body>
+<p id="demo" style="color: white; background-color: blue" >VAIBHAV PISE</p>
+
+<input type="button" value="Click!" onclick="Change_Color()">
+
+<script type="text/javascript">
+
+	function Change_Color()
+	{
+	  document.getElementById('demo').style.color="blue";
+	  document.getElementById('demo').style.background="white";
+
+	}
+
+</script>
+</body>
+</html>
+
