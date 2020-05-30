@@ -1,0 +1,28 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>Paragraph</title>
+</head>
+<body>
+<p >"MY NAME IS VAIBHAV"</p>
+<P >"I HAVE DONE B.E. IN EXTC FROM UNIVERSITY OF MUMBAI"</P>
+<P >"I AM PERSUING PG-DAC FROM SMVITA MUMBAI"</P>
+
+<h1 id="demo"></h1>
+
+<input type="button" value="Click !" onclick="fun()">
+<script type="text/javascript">
+	
+		function fun()
+		{
+			var x=document.getElementsByTagName("p");
+			document.getElementById("demo").innerHTML=x.length;
+			for(var i=0; i<x.length; i++)
+			{
+			 x[i].style.background="blue";
+			}
+		}
+
+</script>
+</body>
+</html>
