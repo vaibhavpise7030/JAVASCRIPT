@@ -1,0 +1,22 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>OnchangeSpan</title>
+</head>
+<body>
+
+<input type="text" id="demo1" onchange="fun()">
+<span id="demo2" style="color: red"></span><br><br>
+ 	
+	<script type="text/javascript">
+
+		function fun()
+		{
+			var name=document.getElementById("demo1").value;
+			document.getElementById("demo2").innerHTML=name;
+		}
+
+		
+	</script>
+</body>
+</html>
