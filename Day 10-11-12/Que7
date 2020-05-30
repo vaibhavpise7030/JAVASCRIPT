@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>Remove Child</title>
+</head>
+<body>
+
+<ol id="list">
+	<li>Akash</li>
+	<li>Vaibhav</li>
+	<li>Ganesh</li>
+	<li>Rishikesh</li>
+	<li>Rahul</li>
+	<li>Prasanna</li>
+</ol>
+<p id="demo"></p>
+<input type="button" value = "click !" onclick="fun()">
+	<script type="text/javascript">
+		
+		function fun()
+		{
+			var x = document.getElementById("list");
+			x.removeChild(list.childNodes[0]);
+		}
+	</script>
+</body>
+</html>
