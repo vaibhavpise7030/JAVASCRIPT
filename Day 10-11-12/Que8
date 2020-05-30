@@ -20,7 +20,7 @@
 		function fun()
 		{
 			var x = document.getElementById("list");
-			x.removeChild(list.childNodes[0]);
+			x.removeChild(list.childNodes[1]);
 		}
 	</script>
 </body>
