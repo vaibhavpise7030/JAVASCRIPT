@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Height_Width</title>
+</head>
+<body onload="fun()" style="background-color: pink">
+	<style type="text/css">
+		h1{
+			color: red; text-align: center;
+		}
+		#Demo{
+			color: green; text-align: center;
+			border: 5px solid yellow;
+
+		}
+	</style>
+		<h1>Screen Specifications are: </h1>
+
+	<h2 id="Demo"></h2>
+	<script type="">
+		function fun(){
+			document.getElementById('Demo').innerHTML = 
+			"Screen Height is : " + screen.height + "<br>" + "Screen Widht is : " + screen.width;
+		}
+	</script>
+
+
+</body>
+</html>
