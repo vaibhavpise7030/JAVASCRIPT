@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Digital_Clock</title>
+</head>
+<body style="background-color: pink">
+	<h1 align="center" style="color: red">Digital Clock</h1>
+
+<div style="border: 10px solid red; margin-top: 120px; width: 20%; height: 80px; margin-left: 600px" >
+	<h1 id="Demo" align="center" style="color: green" ></h1>
+</div>
+
+<script type="text/javascript">
+setInterval(myTimer, 1000);
+
+function myTimer() {
+  var d = new Date();
+  document.getElementById("Demo").innerHTML = d.toLocaleTimeString(); //Return the time portion of a Date object as a string, using locale conventions
+}
+</script>
+
+</body>
+</html>
