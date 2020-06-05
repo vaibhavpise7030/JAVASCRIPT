@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hide_paragraph</title>
+	<script src="jquery.js"></script>
+
+</head>
+<p>Is it possible to manipulate ALL CSS properties with the animate() method?
+
+Yes, almost! However, there is one important thing to remember: all property names must be camel-cased when used with the animate() method: You will need to write paddingLeft instead of padding-left, marginRight instead of margin-right, and so on.
+</p>
+<button>Click Here</button>
+<body>
+<script type="text/javascript">
+	$(document).ready(function()
+	{
+		$("button").click(function(){
+			
+			$("p").hide(1000,function(){
+				alert("Hide Completed")
+			});
+		});
+	});
+</script>
+</body>
+</html>

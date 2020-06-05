@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hide_Image</title>
+	<script src="jquery.js"></script>
+</head>
+<body>
+
+<img src="banner.png" id="demo"><br><br>
+<button>Click Here</button>
+<script type="text/javascript">
+	$(document).ready(function()
+	{
+		$("button").click(function()
+		{
+			$("#demo").toggle(2000);
+		});
+	});
+</script>
+</body>
+</html>
