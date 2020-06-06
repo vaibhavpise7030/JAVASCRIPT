@@ -1,0 +1,26 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Copy Text</title>
+    <script src="jquery.js"></script>
+
+</head>
+<body>
+   VALUE 1:  <input type="text" name="ip1" id="ipt1"><br>
+   VALUE 2:  <input type="text" name="ip2" id="ipt2"><br>
+    <button>click</button>
+
+    <script>
+        var value = "";
+        $("document").ready(function() {
+            $("button").click(function() {
+                value = $("input:first").val() ;
+                $("input:first").val($("input:last").val());
+                $("input:last").val(value);
+            });
+        });
+    </script>
+</body>
+</html>
